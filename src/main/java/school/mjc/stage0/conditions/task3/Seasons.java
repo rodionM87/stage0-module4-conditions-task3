@@ -7,26 +7,26 @@ public class Seasons {
 	int[] summer = {6, 7, 8};
 	int[] autumn = {9, 10, 11};
 	for (int monthInt:winter) {
-	    if (integerNum == monthInt) {
+	    if (month == monthInt) {
 		System.out.print("Winter");
 	    }
 	}
 	for (int monthInt:spring) {
-	    if (integerNum == monthInt) {
+	    if (month == monthInt) {
 		System.out.print("Spring");
 	    }
 	}
 	for (int monthInt:summer) {
-	    if (integerNum == monthInt) {
+	    if (month == monthInt) {
 		System.out.print("Summer");
 	    }
 	}
 	for (int monthInt:autumn) {
-	    if (integerNum == monthInt) {
+	    if (month == monthInt) {
 		System.out.print("Autumn");
 	    }
 	}
-	if (integerNum <= 0 || integerNum >= 13) {
+	if (month <= 0 || month >= 13) {
 	    System.out.print("Wrong input");
 	}
     }
