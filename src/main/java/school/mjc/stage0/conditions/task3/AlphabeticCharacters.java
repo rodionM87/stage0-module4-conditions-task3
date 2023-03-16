@@ -7,16 +7,15 @@ public class AlphabeticCharacters {
 	    if (character == tempChar) {
 		checkCharacter(character);
 	    } else {
-	        System.out.println("Wrong alphabet!");
+	        System.out.println("wrong alphabet!");
 	    }
         }
     }
     
     
     public static Object checkCharacter(char character) {
-        char[] vowel = {'a','e','i','o','u','y'};
-	char[] consonant = {'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z'};
-				
+        char[] vowel = {'a','e','i','o','u','y', 'Y', 'U', 'O', 'A', 'I', 'E'};
+	char[] consonant = {'b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z', 'Z', 'V', 'W', 'X', 'P', 'Q', 'R', 'S', 'T', 'J', 'K', 'L', 'M', 'N', 'F', 'G', 'H', 'B', 'C', 'D'};
 	for (char tempChar:vowel) {
 	    if (character == tempChar) {
 		System.out.println("Vowel");
