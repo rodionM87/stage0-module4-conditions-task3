@@ -19,11 +19,13 @@ public class AlphabeticCharacters {
 	for (char tempChar:vowel) {
 	    if (character == tempChar) {
 		System.out.println("Vowel");
+		return "Vowel";
 	    }
 	}
 	for (char tempChar:consonant) {
             if (character == tempChar) {
 		System.out.println("Consonant");
+		return "Consonant";
 	    }
 	}
     }
