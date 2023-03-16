@@ -6,7 +6,6 @@ public class AlphabeticCharacters {
 	for (char tempChar:alpha) {
 	    if (character == tempChar) {
 		checkCharacter(character);
-		return character;
 	    } else {
 	        System.out.println("Wrong alphabet!");
 	    }
@@ -21,13 +20,11 @@ public class AlphabeticCharacters {
 	for (char tempChar:vowel) {
 	    if (character == tempChar) {
 		System.out.println("Vowel");
-		return character;
 	    }
 	}
 	for (char tempChar:consonant) {
             if (character == tempChar) {
 		System.out.println("Consonant");
-		return character;
 	    }
 	}
     }
