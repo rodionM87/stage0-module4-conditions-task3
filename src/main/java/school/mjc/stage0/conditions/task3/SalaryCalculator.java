@@ -6,15 +6,15 @@ public class SalaryCalculator {
 	    float afterTaxes = (float) (salary * (1 - 0.15));	    
 	    System.out.println(afterTaxes);
 	}
-	if (10000 < salary && salary <= 20000) {
+	else if (10000 < salary && salary <= 20000) {
 	    float afterTaxes = (float) (salary * (1 - 0.18));
 	    System.out.println(afterTaxes);
 	}
-	if (salary > 20000) {
+	else if (salary > 20000) {
 	    float afterTaxes = (float) (salary * (1 - 0.20));
 	    System.out.println(afterTaxes);
 	}
-	if (salary < 0) {
+	 else if (salary < 0) {
 	    System.out.println("wrong input!");
 	}
     }
