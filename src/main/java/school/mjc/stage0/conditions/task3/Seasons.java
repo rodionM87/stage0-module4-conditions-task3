@@ -27,7 +27,7 @@ public class Seasons {
 	    }
 	}
 	if (month <= 0 || month >= 13) {
-	    System.out.print("Wrong input");
+	    System.out.print("wrong number!");
 	}
     }
 }
